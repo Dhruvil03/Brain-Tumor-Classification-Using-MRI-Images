@@ -1,6 +1,4 @@
-# Brain-Tumor-Classification-Using-MRI-Images
-
-# 🧠 Brain Tumor Detection using Deep Learning
+# 🧠 Brain-Tumor-Classification-Using-MRI-Images
 
 ## 📝 Abstract
 
