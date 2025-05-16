@@ -4,11 +4,11 @@
 
 Brain tumors are a serious medical condition affecting both children and adults, constituting 85 to 90 percent of all primary Central Nervous System (CNS) tumors. Annually, around 11,700 people receive a brain tumor diagnosis, with a 5-year survival rate of approximately 34 percent for men and 36 percent for women. Proper treatment, planning, and accurate diagnostics are crucial to improving patient life expectancy.
 
-This project focuses on automated classification techniques using Deep Learning Algorithms such as Convolutional Neural Network (CNN), Transfer Learning (TL), and Artificial Neural Network (ANN). These techniques offer higher accuracy than manual classification, aiding doctors worldwide in efficient detection and classification of brain tumors[1][2][4][5][6][7][8].
+This project focuses on automated classification techniques using Deep Learning Algorithms such as Convolutional Neural Network (CNN), Transfer Learning (TL), and Artificial Neural Network (ANN). These techniques offer higher accuracy than manual classification, aiding doctors worldwide in efficient detection and classification of brain tumors.
 
 ## 🌐 Context
 
-Brain tumors present complexities in size and location, requiring expertise for accurate analysis. Developing countries often face challenges due to a shortage of skilled doctors and insufficient knowledge about tumors. An automated system on the cloud can address these issues, providing a faster and more accessible solution[1][2][4][5][6][7][8].
+Brain tumors present complexities in size and location, requiring expertise for accurate analysis. Developing countries often face challenges due to a shortage of skilled doctors and insufficient knowledge about tumors. An automated system on the cloud can address these issues, providing a faster and more accessible solution.
 
 ## 🔍 Methodology
 
@@ -28,6 +28,8 @@ Brain tumors present complexities in size and location, requiring expertise for 
      - Model 1: Simple CNN model with few layers.
      - Model 2: CNN model with additional layers for increased complexity.
      - Model 3: Transfer learning using a pre-trained VGG16 model with fine-tuning.
+     - Model 4: Transfer learning using a pre-trained ResNet50 model with fine-tuning.
+     - Model 5: Transfer learning using a pre-trained DenseNet121 model with fine-tuning.
 
 5. **Training the Models:**
    - Each model is compiled using the Adam optimizer and categorical cross-entropy loss.
@@ -48,21 +50,14 @@ Brain tumors present complexities in size and location, requiring expertise for 
 9. **Performance Metrics and Visualization:**
    - For each model, performance metrics such as F1-score, precision, recall, and confusion matrix are calculated and displayed.
 
-10. **Saving the Best Model:**
-    - The best performing model is saved to an .keras file ('best_model.keras') for future use or deployment.
-
-
 **Note:** Ensure to update the paths accordingly based on your local machine's directory structure.
 
-**Data and Model File Download:**
-- Due to the large size of the dataset, it is not included in the GitHub repository. Please download the dataset from the provided location and place it in a directory named 'Datasets/Training' and 'Datasets/Testing' relative to the notebook.
-
--Similarly, the trained model file ('best_model.keras') is generated when you run the notebook successfully. Please keep this file in a directory named 'Web App' for smooth deployment without hiccups.
-
+**Dataset Download:**
+- https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
 Download Data: Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
 
-Run the Jupyter Notebook: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
+Run the Jupyter Notebook?Google Colab: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
 
 Training and Evaluation: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
 
