@@ -55,10 +55,10 @@ Brain tumors present complexities in size and location, requiring expertise for 
 **Dataset Download:**
 - https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-Download Data: Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
+**Download Data:** Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
 
-Run the Jupyter Notebook?Google Colab: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
+**Run the Jupyter Notebook/Google Colab:** Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
 
-Training and Evaluation: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
+**Training and Evaluation:** Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
 
-Interpret Results: Analyze the model's performance using the visualizations and metrics provided in the notebook.
+**Interpret Results:** Analyze the model's performance using the visualizations and metrics provided in the notebook.
